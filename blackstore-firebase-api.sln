@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blackstore-firebase-api", "blackstore-firebase-api\blackstore-firebase-api.csproj", "{72B41A90-08F4-4CE5-A3D4-B76874280187}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B41A90-08F4-4CE5-A3D4-B76874280187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B41A90-08F4-4CE5-A3D4-B76874280187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B41A90-08F4-4CE5-A3D4-B76874280187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B41A90-08F4-4CE5-A3D4-B76874280187}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {204E2596-DD1A-41E1-802F-C43E8A7EF427}
+	EndGlobalSection
+EndGlobal

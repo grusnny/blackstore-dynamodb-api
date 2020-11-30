@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QO4xtPeROpckxbwtHHCDZ4979GZU/83eGM6mMsAdwbTde9WYzEDmyCZlbFTQCpcVeuY3/Q0AHiagyqzv6WvZqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eland\\Desktop\\blackstore-firebase-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eland\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
