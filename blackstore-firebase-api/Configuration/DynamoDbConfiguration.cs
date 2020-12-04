@@ -109,7 +109,26 @@ namespace blackstore_firebase_api.Configuration
             else
                 return new Product();
 
-        } 
+        }
 
+        public async Task<List<Product>> GetAllProducts()
+        {
+
+            var context = new DynamoDBContext(client);
+            var conditions = new List<ScanCondition>();
+            var allDocs = await context.ScanAsync<Product>(conditions).GetRemainingAsync();
+            return allDocs;
+        }
+
+
+        public async Task<Product> GetProductById(string id)
+        {
+
+            var context = new DynamoDBContext(client);
+            Product product = await context.LoadAsync<Product>(id);
+
+            return product;
+
+        }
     }
 }
