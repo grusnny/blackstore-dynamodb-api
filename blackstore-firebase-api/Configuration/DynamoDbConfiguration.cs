@@ -1,12 +1,17 @@
 ﻿
 using Amazon;
 using Amazon.DynamoDBv2;
+using Amazon.DynamoDBv2.DataModel;
+using Amazon.DynamoDBv2.DocumentModel;
 using Amazon.DynamoDBv2.Model;
 using Amazon.Runtime;
+using blackstore_firebase_api.Entity;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -88,5 +93,23 @@ namespace blackstore_firebase_api.Configuration
             return "The table already exists!";
 
         }
+
+        public async Task<Product> AddProduct(Product product)
+        {
+            product.name = product.name.ToLower();
+            var context = new DynamoDBContext(client);
+            await context.SaveAsync<Product>(product);
+            List<ScanCondition> conditions = new List<ScanCondition>();
+            conditions.Add(new ScanCondition("id", ScanOperator.Equal, product.id));
+            var allDocs = await context.ScanAsync<Product>(conditions).GetRemainingAsync();
+            var savedState = allDocs.FirstOrDefault();
+
+            if (JsonConvert.SerializeObject(savedState) == JsonConvert.SerializeObject(product))
+                return product;
+            else
+                return new Product();
+
+        } 
+
     }
 }
