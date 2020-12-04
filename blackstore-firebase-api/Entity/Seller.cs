@@ -5,12 +5,11 @@ using System.Threading.Tasks;
 
 namespace blackstore_firebase_api.Entity
 {
-    
-    public class City
+    public class Seller
     {
-        
+        public string id { get; set; }
         public string name { get; set; }
-        
-        public string code { get; set; }
+        public string logo { get; set; }
+
     }
 }

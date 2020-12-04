@@ -13,9 +13,9 @@ namespace blackstore_firebase_api.Entity
         public string brand { get; set; }
         public string thumbnail { get; set; }
         public City city { get; set; }
-        public int price { get; set; }
+        public float price { get; set; }
         public string currency { get; set; }
-        public int rating { get; set; }
+        public float rating { get; set; }
 
     }
 }

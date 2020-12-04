@@ -1,4 +1,4 @@
-﻿using Google.Cloud.Firestore;
+﻿using Amazon.DynamoDBv2.DataModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace blackstore_firebase_api.Entity
 {
-    [FirestoreData]
+    [DynamoDBTable("Products")]
     public class Product
     {
-        [FirestoreProperty]
+        [DynamoDBHashKey]
         public string id { get; set; }
-        [FirestoreProperty]
+        [DynamoDBProperty]
         public string name { get; set; }
-        [FirestoreProperty]
+        [DynamoDBProperty]
         public string brand { get; set; }
-        [FirestoreProperty]
+        [DynamoDBProperty]
         public string thumbnail { get; set; }
-        [FirestoreProperty]
+        [DynamoDBProperty]
         public List<string> pictures { get; set; }
-        [FirestoreProperty]
+        [DynamoDBProperty]
         public City city { get; set; }
-        [FirestoreProperty]
+        [DynamoDBProperty]
         public Seller seller { get; set; }
-        [FirestoreProperty]
+        [DynamoDBProperty]
         public string description { get; set; }
-        [FirestoreProperty]
-        public int price { get; set; }
-        [FirestoreProperty]
+        [DynamoDBProperty]
+        public float price { get; set; }
+        [DynamoDBProperty]
         public string currency { get; set; }
-        [FirestoreProperty]
-        public int rating { get; set; }
+        [DynamoDBProperty]
+        public float rating { get; set; }
 
     }
 }

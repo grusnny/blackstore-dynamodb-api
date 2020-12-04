@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eland\\Desktop\\blackstore-firebase-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eland\\Desktop\\blackstore-firebase-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj": {
+    "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eland\\Desktop\\blackstore-firebase-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
         "projectName": "blackstore-firebase-api",
-        "projectPath": "C:\\Users\\eland\\Desktop\\blackstore-firebase-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
-        "packagesPath": "C:\\Users\\eland\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eland\\Desktop\\blackstore-firebase-api\\blackstore-firebase-api\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.5.4.5, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QO4xtPeROpckxbwtHHCDZ4979GZU/83eGM6mMsAdwbTde9WYzEDmyCZlbFTQCpcVeuY3/Q0AHiagyqzv6WvZqg==",
+  "dgSpecHash": "e5hVodoyaDo5e3M7c8CyWZmkHRUxbdDclWTXk+V/9A+vJ0FkviuIluUATzBOzQtHOMpTh3zhiAny4L0LgXYHVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eland\\Desktop\\blackstore-firebase-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\eland\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\awssdk.core\\3.5.1.46\\awssdk.core.3.5.1.46.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\awssdk.dynamodbv2\\3.5.4.5\\awssdk.dynamodbv2.3.5.4.5.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
   ],
   "logs": []
 }
