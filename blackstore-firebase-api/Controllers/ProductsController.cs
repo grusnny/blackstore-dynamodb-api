@@ -47,7 +47,18 @@ namespace blackstore_firebase_api.Controllers
         }
 
 
-       
+        [HttpDelete("/api/{id}")]
+        public async Task<String> Delete(String id)
+        {
+            return await configuracion.DeleteProductById(id);
+        }
+
+        [HttpGet("/api/search")]
+        public async Task<Result> Search([FromQuery] String q)
+        {
+            return await configuracion.GetProductWhereName(q);
+        }
+
 
 
     }
