@@ -20,5 +20,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\eland\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.10.9</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\eland\.nuget\packages\awssdk.core\3.5.1.46</PkgAWSSDK_Core>
+    <PkgAWSSDK_DynamoDBv2 Condition=" '$(PkgAWSSDK_DynamoDBv2)' == '' ">C:\Users\eland\.nuget\packages\awssdk.dynamodbv2\3.5.4.5</PkgAWSSDK_DynamoDBv2>
   </PropertyGroup>
 </Project>
