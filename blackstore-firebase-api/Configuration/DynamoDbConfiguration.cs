@@ -168,5 +168,19 @@ namespace blackstore_firebase_api.Configuration
             return result;
 
         }
+
+        public async Task<String> DeleteProductById(string id)
+        {
+
+            var context = new DynamoDBContext(client);
+            Product product = await context.LoadAsync<Product>(id, new DynamoDBContextConfig
+            {
+                ConsistentRead = true
+            });
+            if (product == null)
+                return "Product is deleted";
+            return "Product is not deleted";
+        }
+
     }
 }
