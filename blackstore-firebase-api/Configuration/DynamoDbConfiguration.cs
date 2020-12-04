@@ -130,5 +130,43 @@ namespace blackstore_firebase_api.Configuration
             return product;
 
         }
+
+        public async Task<Result> GetProductWhereName(string name)
+        {
+
+            var context = new DynamoDBContext(client);
+            List<ScanCondition> conditions = new List<ScanCondition>();
+            conditions.Add(new ScanCondition("name", ScanOperator.Contains, name.ToLower()));
+            var allDocs = await context.ScanAsync<Product>(conditions).GetRemainingAsync();
+            List<Item> items = new List<Item>();
+            bool isEmpty = !allDocs.Any();
+
+            Seller seller = new Seller();
+            seller.name = "BlackStore";
+            seller.id = "BST13579ALV";
+            seller.logo = "";
+            Result result = new Result();
+            result.query = name;
+            result.total = allDocs.Count();
+            result.seller = seller;
+
+            foreach (Product product in allDocs)
+            {
+                Item item = new Item();
+                item.brand = product.brand;
+                item.city = product.city;
+                item.currency = product.currency;
+                item.id = product.id;
+                item.name = product.name;
+                item.price = product.price;
+                item.rating = product.rating;
+                item.thumbnail = product.thumbnail;
+                items.Add(item);
+
+            }
+            result.items = items;
+            return result;
+
+        }
     }
 }
