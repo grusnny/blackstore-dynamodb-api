@@ -25,9 +25,30 @@ namespace blackstore_firebase_api.Controllers
 
         }
 
+        [HttpGet("/api")]
+        public async Task<List<Product>> GetAll()
+        {
+
+            return await configuracion.GetAllProducts();
+
+        }
+      
+        [HttpGet("/api/item/{id}")]
+        public async Task<Product> DetailProduct(string id)
+        {
+            return await configuracion.GetProductById(id);
+        }
+
+
+        [HttpPost("/api")]
+        public async Task<Product> Post([FromBody] Product product)
+        {
+            return await configuracion.AddProduct(product);
+        }
+
+
        
 
-      
 
     }
 }
