@@ -25,7 +25,7 @@ namespace blackstore_firebase_api.Controllers
 
         }
         [HttpGet("/")]
-        public async Task<String> Bienvenido()
+        public String Bienvenido()
         {
 
             return "¡Bienvenido! se ha conectado con la API de BlackStore.";
