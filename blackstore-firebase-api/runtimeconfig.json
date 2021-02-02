@@ -4,7 +4,7 @@
   "framework": "netcoreapp3.1",
   "self-contained": false,
   "application": "blackstoreapi",
-  "environment": "Blackstoreapi-production",
+  "environment": "Blackstoreapi-developer",
   "enable-xray": false,
   "enhanced-health-type": "basic",
   "additional-options": "",
