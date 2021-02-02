@@ -52,7 +52,6 @@ namespace blackstore_firebase_api.Configuration
         }
         public async Task<String> createTable()
         {
-
             Console.WriteLine("Verify table => " + tableName);
             var tableResponse = await client.ListTablesAsync();
             Console.WriteLine(tableResponse.TableNames);

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eland\\Desktop\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj": {}
+    "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eland\\Desktop\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj": {
+    "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eland\\Desktop\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
+        "projectUniqueName": "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
         "projectName": "blackstore-firebase-api",
-        "projectPath": "C:\\Users\\eland\\Desktop\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
-        "packagesPath": "C:\\Users\\eland\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eland\\Desktop\\blackstore-dynamodb-api\\blackstore-firebase-api\\obj\\",
+        "projectPath": "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
+        "packagesPath": "C:\\Users\\andres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,6 +67,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +81,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
