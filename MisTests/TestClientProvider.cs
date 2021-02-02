@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MisTests
 {
-    public class TestClientProvider
+    public class TestClientProvider : IDisposable
     {
         public HttpClient Client { get; private set; }
         public TestClientProvider()
@@ -19,6 +19,10 @@ namespace MisTests
             Client = server.CreateClient();
         }
 
-        
+        public void Dispose()
+        {
+            
+            Client?.Dispose();
+        }
     }
 }
