@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eGGYNN5j2AQd7wuGQW44mpH3fct940MpCbHYTvKw1a2TGBryor8+NDR1jUBorrLl7ynLDVB45p5zx1BINy+onw==",
+  "dgSpecHash": "h4ImAn+dWwUs47TBm0wGLIA2lgQ47p/srVocFSu6fYBDYyRasj1p8vzkdMfleBTEwJj+pNeBqhraFyzbMn85YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\andres\\.nuget\\packages\\awssdk.dynamodbv2\\3.5.4.5\\awssdk.dynamodbv2.3.5.4.5.nupkg.sha512",
     "C:\\Users\\andres\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\andres\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\andres\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\3.1.10\\microsoft.netcore.app.runtime.linux-x64.3.1.10.nupkg.sha512",
+    "C:\\Users\\andres\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\3.1.10\\microsoft.aspnetcore.app.runtime.linux-x64.3.1.10.nupkg.sha512",
     "C:\\Users\\andres\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\3.1.10\\microsoft.netcore.app.host.linux-x64.3.1.10.nupkg.sha512"
   ],
   "logs": []

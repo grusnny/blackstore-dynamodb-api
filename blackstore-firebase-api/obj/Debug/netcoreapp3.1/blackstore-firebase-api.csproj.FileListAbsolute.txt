@@ -22,4 +22,3 @@ C:\Users\andres\Documents\GitHub\blackstore-dynamodb-api\blackstore-firebase-api
 C:\Users\andres\Documents\GitHub\blackstore-dynamodb-api\blackstore-firebase-api\obj\Debug\netcoreapp3.1\blackstore-firebase-api.dll
 C:\Users\andres\Documents\GitHub\blackstore-dynamodb-api\blackstore-firebase-api\obj\Debug\netcoreapp3.1\blackstore-firebase-api.pdb
 C:\Users\andres\Documents\GitHub\blackstore-dynamodb-api\blackstore-firebase-api\obj\Debug\netcoreapp3.1\blackstore-firebase-api.genruntimeconfig.cache
-C:\Users\andres\Documents\GitHub\blackstore-dynamodb-api\blackstore-firebase-api\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
