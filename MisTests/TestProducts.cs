@@ -35,5 +35,15 @@ namespace MisTests
             Assert.Equal(HttpStatusCode.OK, results.StatusCode);
 
         }
+
+        [Fact]
+        public async Task TestCreateTable_Ok()
+        {
+            var client = new TestClientProvider().Client;
+            var results = await client.GetAsync("/api/CreateTable");
+            results.EnsureSuccessStatusCode();
+            Assert.Equal(HttpStatusCode.OK, results.StatusCode);
+
+        }
     }
 }
