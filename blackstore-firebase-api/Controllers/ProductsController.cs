@@ -24,6 +24,13 @@ namespace blackstore_firebase_api.Controllers
             return await configuracion.createTable();
 
         }
+        [HttpGet("/")]
+        public async Task<String> Bienvenido()
+        {
+
+            return "¡Bienvenido! se ha conectado con la API de BlackStore.";
+
+        }
 
         [HttpGet("/api")]
         public async Task<List<Product>> GetAll()
