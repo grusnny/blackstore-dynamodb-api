@@ -205,19 +205,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andres\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
       "projectName": "blackstore-firebase-api",
-      "projectPath": "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
-      "packagesPath": "C:\\Users\\andres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andres\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\blackstore-firebase-api.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\blackstore-dynamodb-api\\blackstore-firebase-api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -278,7 +278,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
